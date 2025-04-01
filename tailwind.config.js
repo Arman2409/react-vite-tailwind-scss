@@ -6,8 +6,12 @@ export default {
     theme: {
         extend: {
             colors: {
-                'custom-gray': 'rgba(113, 150, 66, 0.5)', // Custom gray with 50% opacity
-            },
+                // ! Any changes here require corresponding updates in ./src/styles/colors.scss
+                primary: "#3F7D58",
+                secondary: "#EFEFEF",
+                accent: "#EC5228",
+                neutral: "#ffcba3",
+            }
         },
     },
     plugins: [],

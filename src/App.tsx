@@ -1,14 +1,7 @@
-import Home from "./pages/home/home"
+import Home from "./components/pages/Home/Home"
 
 const App = () => {
-  return (
-    <>
-      <Home />
-      <div className="w-[100] h-[200px] bg-red">
-        {"BB"}
-      </div>
-    </>
-  )
+  return <Home />
 }
 
 export default App
